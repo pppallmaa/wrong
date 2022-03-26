@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+  background-color:#26ff52;
+  height: 5vh;
+  position: sticky;
+  top: 0;
+}
+.ft{
+  text-decoration: none;
+  color: black ;
+  font-size: 2vh;
+  padding: 0 2em;
+border-left: 1px solid gray;
+padding-bottom: 2vh;
+
+}
+nav:first-child{
+  padding-left: 15vh;
+}
+script{
+  border-left:1px solid gray;
+}
+.search {
+  float: right;
+width: 20vh; /* Ширина поля с кнопкой */
+border: 1px solid black; /* Параметры рамки */
+min-height: 3vh; /* Минимальная высота */
+height: 3vh;
+/* text-align: right; */
+
+
+}
+input[type="search"] {
+border: 1px solid gray; /* Убираем рамку */
+outline: none; /* Убираем свечение в Chrome и Safari */
+-webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+width: 27vh; /* Ширина поля */
+vertical-align: center  ; /* Выравнивание по середине */
+}
+h1{
+      text-align: center;
+}
+main{
+  margin-left: 6vh;
+ margin-right: 6vh;
+  border: 1px solid gray;
+  border-radius: 15px;
+  background-color:#e8e8e8;
+}
+h2{
+  text-align: center;
+}
+h3{
+  margin-right: 0;
+  margin-left: 0vh;
+  margin-bottom: 1vh;
+}
+div{
+  border:1px solid gray;
+ width: 40%;
+ background-color:#b7d474;
+ display: block;
+ margin: 0;
+}
+.sd{
+  text-decoration: none;
+  color: black;
+}
+.bn{
+  width: 30vh;
+  height: 30vh;
+  margin: 0;
+  float: right;
+  clear: both;
+  display: inline;
+}
+.img{
+  display: inline;
+}
+
+
